@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  padding: 56px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #36536b;
+}
+.btn {
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px #36536b40;
+  color: white;
+  padding: 16px 26.5px;
+  border: none;
+  border-radius: 24px;
+}
+
+.btn2 {
+  display: none;
+  color: #36536b;
+  font-size: 40px;
+  border: none;
+  background-color: inherit;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
+  padding: 50px 0;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 7 00;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #36536b;
+  max-width: 546px;
+}
+.hero img {
+  width: 263px;
+  height: 500px;
+}
+.t {
+  display: flex;
+
+  justify-content: space-between;
+}
+.hero-2 {
+  padding: 238px 0;
+}
+.hero-2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.hero-2 h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.3692307770252228px;
+  color: #36536b;
+  margin-bottom: 25px;
+}
+.hero-2 p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6c8294;
+
+  margin-right: 235px;
+}
+.ota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 281px;
+  flex-wrap: wrap;
+}
+.card p {
+  margin-top: 32px;
+}
+.card {
+  text-align: center;
+  color: #36536b;
+}
+footer {
+  background: #1b262f;
+  padding: 31px 260px;
+  color: white;
+}
+.box9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box11 {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.box10 button i {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .hero,
+  .hero-2 .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  h1 {
+    max-width: 600px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .hero img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 570px) {
+  nav ul {
+    display: none;
+  }
+  .btn2 {
+    display: block;
+  }
+}
